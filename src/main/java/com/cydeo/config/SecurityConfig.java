@@ -66,7 +66,8 @@ public class SecurityConfig {
                     .tokenValiditySeconds(120)
                     .key("cydeo")
                     .userDetailsService(securityService)
-                .and().build();
+                .and()
+                .build();
     }
 
 
